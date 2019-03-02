@@ -18,7 +18,6 @@ public class ExcelReadingHorizontally {
         excelUtils.setExcelFile("./", "src/main/resources/sample-xlsx-file.xlsx");
         numOfRows = excelUtils.getLastRowNumber(sheetName, "#");//excelUtils.getRowCount(sheetName);
         numOfCols =excelUtils.getLastColumnNumber(sheetName, "#"); //excelUtils.getColCount(sheetName);
-
        /* for(int i=0; i<numOfRows; i++){
             for(int j=0; j<numOfCols; j++){
                 System.out.print(excelUtils.getCellDataFromTestDataSheet(sheetName, i, j)+ "\t");
