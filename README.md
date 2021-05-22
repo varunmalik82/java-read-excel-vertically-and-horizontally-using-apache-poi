@@ -30,4 +30,7 @@ After execution of tests `mochawesome` report is generated and it can located in
 ### logs
 Test Execution logs request/response of api's are logged in the `logs\api.log`
 
+### Test Execution images
+
+![Alt text](images/cliExecution.png?raw=true “CLI execution Result”)
 
